@@ -105,7 +105,7 @@ int main(int argc, char ** argv)
     for(int i = 0; i < m; i++)
     {
         for(int j = 0; j < k; j++)
-            scanf("&f ", &hostB[i*m + j]);
+            printf("&f ", &hostC[i*m + j]);
         printf("\n");
     }
 
